@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news_24dp"
+            android:title="@string/navigation_drawer_news" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_24dp"
+            android:title="@string/navigation_drawer_find_gifts" />
+        <item
+            android:id="@+id/nav_diary"
+            android:icon="@drawable/ic_cake_24dp"
+            android:title="@string/navigation_drawer_diary" />
+    </group>
+
+    <item android:title="@string/navigation_drawer_about_us">
+        <menu>
+            <item
+                android:id="@+id/nav_suggest"
+                android:icon="@drawable/ic_chat_24dp"
+                android:title="@string/navigation_drawer_suggest" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_supervisor_account_24dp"
+                android:title="@string/navigation_drawer_contact" />
+        </menu>
+    </item>
+</menu>

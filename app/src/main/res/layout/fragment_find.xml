@@ -1,0 +1,115 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.MainActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:visibility="gone">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+
+            <ImageView
+                android:id="@+id/find_reload_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="16dp"
+                android:src="@drawable/ic_refresh_black_24dp"
+                android:tint="@android:color/white" />
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/landscape_3" />
+
+
+    <FrameLayout
+        android:id="@+id/pager_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:id="@+id/viewpager_indexs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_horizontal_margin">
+
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="14dp"
+            android:alpha="0.7"
+            android:background="@drawable/viewpager_index_selected"
+            android:gravity="center"
+            android:shadowColor="@android:color/white"
+            android:shadowRadius="10.0"
+            android:text="1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/viewpager_index_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="14dp"
+            android:alpha="0.7"
+            android:background="@drawable/viewpager_index_non_selected"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/viewpager_index_3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:alpha="0.7"
+            android:background="@drawable/viewpager_index_non_selected"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/find_cancel_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_clear_black_24dp" />
+
+</android.support.design.widget.CoordinatorLayout>

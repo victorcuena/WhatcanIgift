@@ -1,0 +1,124 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:clipChildren="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="?actionBarSize">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/white"
+            android:clipChildren="false"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="12dp"
+                android:clipChildren="false"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/find_results_gender"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circle_imageview_border"
+                    android:elevation="@dimen/elevation_imageview_find" />
+
+                <TextView
+                    android:id="@+id/find_results_gender_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/roboto_regular"
+                    android:textSize="@dimen/caption" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="6dp"
+
+                android:clipChildren="false"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/find_results_age"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circle_imageview_border"
+                    android:elevation="@dimen/elevation_imageview_find" />
+
+
+                <TextView
+                    android:id="@+id/find_results_age_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/roboto_regular"
+                    android:textSize="@dimen/caption" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="6dp"
+                android:clipChildren="false"
+                android:orientation="vertical">
+
+
+                <es.victorcuena.queleregalo.views.DoubleCircleView
+                    android:id="@+id/find_results_price"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circle_imageview"
+                    android:backgroundTint="@color/price_10"
+                    android:elevation="@dimen/elevation_imageview_find" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/roboto_regular"
+                    android:text="@string/results_price_text"
+                    android:textSize="@dimen/caption" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/results"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

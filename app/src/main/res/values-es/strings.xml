@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">¿Qué le regalo?</string>
+
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+
+
+    <string name="note_title">Nota</string>
+    <string name="note_text">Esta aplicación es solo para mostrar mis habilidades como desarrollador nativo android, las base de datos de regalos aumentará en las siguientes versiones.</string>
+
+
+    <!-- Appbar -->
+    <string name="navigation_drawer_news">Novedades</string>
+    <string name="navigation_drawer_find_gifts">Encuentra regalos</string>
+    <string name="navigation_drawer_diary">Agenda</string>
+    <string name="navigation_drawer_about_us">Sobre nosotros</string>
+    <string name="navigation_drawer_suggest">Sugiérenos algo</string>
+    <string name="navigation_drawer_contact">Contáctanos</string>
+
+
+    <string name="price_from">Desde</string>
+    <string name="price_coin">€</string>
+
+
+    <string name="gender_men">Hombre</string>
+    <string name="gender_women">Mujer</string>
+    <string name="gender_unisex">Unisex</string>
+
+
+    <string name="age_preschool">Preescolar</string>
+    <string name="age_children">Niños</string>
+    <string name="age_teenage">Adolescentes</string>
+    <string name="age_adult">Adultos</string>
+    <string name="age_all">Todas las edades</string>
+
+
+    <string name="gender_question">¿En quién estamos pensando?</string>
+    <string name="age_question">¿Qué edad tiene?</string>
+    <string name="price_question">¿Cuánto quieres gastar?</string>
+
+    <string name="price_free">Gratis</string>
+    <string name="price_from_10">10</string>
+    <string name="price_from_20">20</string>
+    <string name="price_from_50">50</string>
+    <string name="price_from_100">100</string>
+
+    <string name="detail_price_text">Desde</string>
+    <string name="detail_results_in_amazon_text">Resultados de Amazon:</string>
+
+
+    <!-- need to replace the character ? -->
+    <string name="dialog_add_present_heading">Regalar ? a</string>
+
+    <string name="dialog_add_present_possitive_button">Aceptar</string>
+    <string name="dialog_add_present_negative_button">Cancelar</string>
+
+
+    <string name="dialog_add_present_reason">Motivo</string>
+    <string name="dialog_add_present_name">Nombre</string>
+
+
+    <string name="transition_name_detail">name</string>
+    <string name="transition_image_detail">image</string>
+    <string name="transition_fab">fab</string>
+
+
+    <string name="results_price_text">Precio desde</string>
+    <string name="results_title">Tus resultados</string>
+
+
+    <string name="your_diary_title">Agenda</string>
+
+    <string name="your_diary_sure_question">¿Estás seguro?</string>
+    <string name="your_diary_empty">Todavía no tienes nada apuntado</string>
+
+
+    <!-- Suggestions -->
+
+    <string name="suggestion_title">Sugierenos algo</string>
+
+    <string name="send">ENVIAR</string>
+    <string name="suggestion_introduction">Puedes decirnos lo que quieras, si estas contento con nuestra app, si has tenido problemas o si quieres sugirirnos algún regalo. \n¡Todo lo que nos digas lo tendremos en cuenta!</string>
+    <string name="suggestion_email">Tu email</string>
+    <string name="suggestion_content">¿Qué tienes que decirnos?</string>
+
+
+    <string name="suggestion_sent_successfully">¡Tu sugerencia ha sido enviada correctamente!</string>
+    <string name="suggestion_sent_error">Algo fue mal</string>
+
+
+    <string name="dialog_add_present_sent_ok">Añadido correctamente</string>
+    <string name="dialog_add_present_sent_error">Algo fue mal</string>
+    <string name="dialog_add_present_see_reminders">VER</string>
+
+
+    <string name="email_mandatory">Debes introducir tu email</string>
+    <string name="content_mandatory">Debes escribir algo</string>
+
+
+    <string name="dialog_field_name_empty">Es necesario introducir el nombre</string>
+
+    <!-- Contact -->
+
+    <string name="contact_title">Perfil de Victor Cuena</string>
+
+
+    <string name="contact_who_am_I">Sobre mi</string>
+    <string name="contact_who_am_I_text">Autodidacta · Curioso\nConstatante · Apasionado\nIngeniero de Software</string>
+
+    <string name="contact_who_am_I_text2">
+        Soy un estudiante de Ingeniería de Software en constante aprendizaje para así, encontrar una mejor versión de mi mismo.</string>
+
+
+    <string name="contact_awards_title">Prémios</string>
+
+    <string name="contact_awards_talentum">Talentum Startups</string>
+    <string name="contact_awards_talentum_text">Ganador de una beca \"Talentum Startus\" en Telefónica.</string>
+    <string name="contact_awards_recommendation_letter_vicechancellor">Carta de recomendación</string>
+
+    <string name="contact_awards_recommendation_letter_vicechancellor_text">Por parte de la Vicerrectora de Servicios Sociales y Comunitarios en la Universidad de Sevilla
+        \n\n Encontré un bug que permitia la inscripción en las instalaciones del SADUS evitando el pago de abonos.</string>
+
+
+    <string name="contact_links">Más información en</string>
+    <string name="contact_linkedin_link">https://www.linkedin.com/in/victor-cuena-garcia</string>
+
+    <string name="contact_my_email">victorcuena92@gmail.com</string>
+    <string name="contact_choose_client">Elige un cliente de email</string>
+
+
+    <!-- Font families -->
+
+    <string name="roboto_thin">android:fontFamily="sans-serif-thin</string>
+    <string name="roboto_regular">android:fontFamily="sans-serif</string>
+    <string name="roboto_medium">android:fontFamily="sans-serif-medium</string>
+
+
+    ∫
+    <string name="title_activity_detail">Detalles del regalo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!-- errors -->
+
+    <string name="error_404">No hemos podido encontrar regalos con ese filtro</string>∫
+    <string name="error_network">Comprueba tu conexion a internet.</string>
+    <string name="error_network_timeout">Agotado el tiempo de conexión.</string>
+    <string name="error_general">Algo fue mal.</string>
+    <string name="error_tap_to_reload">Probar otra vez</string>
+
+
+    <!-- Descriptions -->
+
+    <string name="description_background_news">Se muestra el fondo de una habitación</string>
+    <string name="font_roboto_thin">Roboto-Thin.ttf</string>
+
+
+
+</resources>

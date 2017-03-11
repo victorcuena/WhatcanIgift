@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">What can I gift?</string>
+
+
+    <string name="note_title">Note</string>
+    <string name="note_text">This app it\'s just to show the skills about android native development, the presents database will increase in next versions.  </string>
+
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+
+    <!-- Appbar -->
+    <string name="navigation_drawer_news">News</string>
+    <string name="navigation_drawer_find_gifts">Find gifts</string>
+    <string name="navigation_drawer_diary">Diary</string>
+    <string name="navigation_drawer_about_us">About us</string>
+    <string name="navigation_drawer_suggest">Suggest us something</string>
+    <string name="navigation_drawer_contact">Contact</string>
+
+
+    <string name="price_from">From</string>
+    <string name="price_coin">€</string>
+
+
+    <string name="gender_men">Men</string>
+    <string name="gender_women">Women</string>
+    <string name="gender_unisex">Unisex</string>
+
+
+    <string name="age_preschool">Preschool</string>
+    <string name="age_children">Children</string>
+    <string name="age_teenage">Teenage</string>
+    <string name="age_adult">Adult</string>
+    <string name="age_all">All ages</string>
+
+
+    <string name="gender_question">Who are we thinking about?</string>
+    <string name="age_question">How old?</string>
+    <string name="price_question">How much do you want to spend?</string>
+
+
+    <string name="price_free">Free</string>
+    <string name="price_from_10">10</string>
+    <string name="price_from_20">20</string>
+    <string name="price_from_50">50</string>
+    <string name="price_from_100">100</string>
+
+    <string name="detail_price_text">Price from</string>
+    <string name="detail_results_in_amazon_text">Results in Amazon:</string>
+
+
+    <!-- need to replace the character ? -->
+    <string name="dialog_add_present_heading">Give a ? to</string>
+
+    <string name="dialog_add_present_possitive_button">Accept</string>
+    <string name="dialog_add_present_negative_button">Cancel</string>
+
+
+    <string name="dialog_add_present_sent_ok">Reminder added correctly</string>
+    <string name="dialog_add_present_sent_error">Something went wrong</string>
+    <string name="dialog_add_present_see_reminders">SEE</string>
+
+
+    <string name="dialog_add_present_reason">Reason</string>
+    <string name="dialog_add_present_name">Name</string>
+
+    <string name="dialog_field_name_empty">The name is mandatory</string>
+    <string name="email_mandatory">The email is mandatory</string>
+    <string name="content_mandatory">The content is mandatory</string>
+
+
+    <string name="transition_name_detail">name</string>
+    <string name="transition_image_detail">image</string>
+    <string name="transition_fab">fab</string>
+
+
+    <string name="results_price_text">Price from</string>
+    <string name="results_title">Your results</string>
+
+
+    <string name="your_diary_title">Your diary</string>
+
+    <string name="your_diary_sure_question">Are you sure?</string>
+
+
+    <string name="your_diary_empty">You don\'t have any reminder saved</string>
+
+
+    <!-- Suggestions -->
+
+    <string name="suggestion_title">Suggest us something</string>
+
+    <string name="send">SEND</string>
+    <string name="suggestion_introduction">You can tell us whatever you want, if you are happy with this app, if you are having problems with it or if you want to suggest us a present. \nEverything can make us to improve!</string>
+    <string name="suggestion_email">Your email</string>
+    <string name="suggestion_content">What do you have to tell us?</string>
+
+
+    <string name="suggestion_sent_successfully">Your suggestion was sent successfully</string>
+    <string name="suggestion_sent_error">Something went wrong</string>
+
+
+    <!-- Contact -->
+
+    <string name="contact_title">Victor\'s profile</string>
+
+
+    <string name="contact_who_am_I">About me</string>
+    <string name="contact_who_am_I_text">Self-educated · Intellectually restless\nPersevering · Passionate · Software engineer</string>
+    <string name="contact_who_am_I_text2">
+        I\'m an Spanish student in Software Engineering, in constant learning trying to improve always myself researching and learning the last technologies.</string>
+
+
+    <string name="contact_awards_title">Awards</string>
+
+    <string name="contact_awards_talentum">Talentum Startups</string>
+    <string name="contact_awards_talentum_text">Winner of an internship in Telefónica as a Talentum, helping startups with the IT.</string>
+    <string name="contact_awards_recommendation_letter_vicechancellor">Recommendation letter</string>
+    <string name="contact_awards_recommendation_letter_vicechancellor_text">From the Vice chancellor of Social Services and Community in the University of Seville.
+        \n\nI found a bug which allows to avoid payments of the SADUS.</string>
+
+
+    <string name="contact_links">See more in</string>
+    <string name="contact_linkedin_link">https://www.linkedin.com/in/victor-cuena-garcia</string>
+
+    <string name="contact_my_email">victorcuena92@gmail.com</string>
+    <string name="contact_choose_client">Choose an email client</string>
+
+
+    <!-- Font families -->
+
+    <string name="roboto_thin">android:fontFamily="sans-serif-thin</string>
+    <string name="roboto_regular">android:fontFamily="sans-serif</string>
+    <string name="roboto_medium">android:fontFamily="sans-serif-medium</string>
+
+
+    ∫
+    <string name="title_activity_detail">Present detail</string>
+
+
+    <!-- errors -->
+
+    <string name="error_404">We can\'t find presents with that filter</string>∫
+    <string name="error_network">Cannot connect to Internet…Please check your connection!</string>
+    <string name="error_network_timeout">Connection TimeOut! Please check your internet connection.</string>
+    <string name="error_general">Something went wrong.</string>
+    <string name="error_tap_to_reload">Try again</string>
+
+
+    <!-- Descriptions -->
+
+    <string name="description_background_news">A background of a living room in a house is showed</string>
+    <string name="font_roboto_thin">Roboto-Thin.ttf</string>
+
+
+</resources>

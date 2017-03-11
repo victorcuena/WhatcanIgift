@@ -1,0 +1,212 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_vertical_margin">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="?actionBarSize"
+            android:gravity="center"
+            android:text="@string/age_question"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/display_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clipChildren="false"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="64dp"
+                android:clipChildren="false"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+                    android:clipChildren="false"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/find_age_preschool"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/circle_imageview_border"
+                        android:elevation="@dimen/elevation_imageview_find"
+                        android:src="@drawable/age_preschool" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@string/roboto_regular"
+                        android:text="@string/age_preschool"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/caption" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+                    android:clipChildren="false"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/find_age_children"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/circle_imageview_border"
+                        android:elevation="@dimen/elevation_imageview_find"
+                        android:src="@drawable/age_children" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@string/roboto_regular"
+                        android:text="@string/age_children"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/caption"
+
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+                    android:clipChildren="false"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/find_age_teen"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/circle_imageview_border"
+                        android:elevation="@dimen/elevation_imageview_find"
+                        android:src="@drawable/age_teen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@string/roboto_regular"
+                        android:text="@string/age_teenage"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/caption"
+
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+                    android:clipChildren="false"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/find_age_adult"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/circle_imageview_border"
+                        android:elevation="@dimen/elevation_imageview_find"
+                        android:src="@drawable/age_adult" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@string/roboto_regular"
+                        android:text="@string/age_adult"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/caption"
+
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="6dp"
+                android:clipChildren="false"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/find_age_all_ages"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_imageview_border"
+                    android:elevation="@dimen/elevation_imageview_find"
+                    android:src="@drawable/age_all" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/roboto_regular"
+                    android:text="@string/age_all"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/caption"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

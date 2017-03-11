@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+
+    <color name="colorAccent">#FF5252</color>
+
+    <color name="colorPrimaryMen">#00BCD4</color>
+    <color name="colorPrimaryDarkMen">#0097A7</color>
+    <color name="colorAccentMen">#FF9800</color>
+
+    <color name="colorPrimaryWomen">#CDDC39</color>
+    <color name="colorPrimaryDarkWomen">#AFB42B</color>
+    <color name="colorAccentWomen">#FF4081</color>
+
+
+    <color name="black_57">#8F212121</color>
+    <color name="black_87">#E1212121</color>
+
+
+    <!-- Age colors -->
+
+    <!-- Preschoolers 0-5 years old-->
+    <!-- children +6-->
+    <!-- teenagers +12 -->
+    <!-- adults +18 -->
+    <!-- all ages -->
+
+    <!-- Prices colors -->
+
+    <color name="price_free">#a8d324</color>
+    <color name="price_10">#8ad5f0</color>
+    <color name="price_20">#cf9fe7</color>
+    <color name="price_50">#d25353</color>
+    <color name="price_100">#00BCD4</color>
+
+
+    <!-- days for background -->
+    <color name="morning">#a1ffffe6</color>
+    <color name="evening">#a1f5a74d</color>
+    <color name="night">#a14d89c9</color>
+
+
+</resources>

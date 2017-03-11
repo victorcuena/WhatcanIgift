@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:clipChildren="false">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="?actionBarSize"
+            android:gravity="center"
+            android:text="@string/price_question"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/display_1" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:clipChildren="false"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="64dp"
+                android:orientation="horizontal">
+
+
+                <es.victorcuena.queleregalo.views.DoubleCircleView
+                    android:id="@+id/find_price_free"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_imageview"
+                    android:backgroundTint="@color/price_free"
+                    android:elevation="@dimen/elevation_imageview_find"
+                    android:text="@string/price_free" />
+
+
+                <es.victorcuena.queleregalo.views.DoubleCircleView
+                    android:id="@+id/find_price_10"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_imageview"
+                    android:backgroundTint="@color/price_10"
+                    android:elevation="@dimen/elevation_imageview_find"
+                    android:text="@string/price_from_10" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <es.victorcuena.queleregalo.views.DoubleCircleView
+                    android:id="@+id/find_price_20"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_imageview"
+                    android:backgroundTint="@color/price_20"
+                    android:elevation="@dimen/elevation_imageview_find"
+                    android:text="@string/price_from_20" />
+
+
+                <es.victorcuena.queleregalo.views.DoubleCircleView
+                    android:id="@+id/find_price_50"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_imageview"
+                    android:backgroundTint="@color/price_50"
+                    android:elevation="@dimen/elevation_imageview_find"
+                    android:text="@string/price_from_50" />
+
+
+            </LinearLayout>
+
+
+            <es.victorcuena.queleregalo.views.DoubleCircleView
+                android:id="@+id/find_price_100"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_imageview"
+                android:backgroundTint="@color/price_100"
+                android:elevation="@dimen/elevation_imageview_find"
+                android:text="@string/price_from_100" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
